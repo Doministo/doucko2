@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style\style.css">
+    <script src="script\main.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="hero">
+            <div class="nadpis">
+                <h1>Seznam žáků</h1>
+            </div>
+            <div class="nabidka">
+                <label for="name">Jméno</label>             
+                <input type="text" name="name" id="name">
+                <label for="surname">Příjmení</label>
+                <input type="text" name="surname" id="surname">
+                <label for="rocnik">Ročník</label>
+                <input type="text" name="rocnik" id="rocnik">
+                <button onclick="Pridat()">Přidat</button>
+                <button onclick="Vyhledej()">Vyhledej</button>
+            </div>
+        </div>
+        <div class="seznan">
+            <table >
+                <thead>
+                    <tr>
+                        <th>Jméno</th>
+                        <th>Příjmení</th>
+                        <th>Třída</th>
+                        <th>Id</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTable">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

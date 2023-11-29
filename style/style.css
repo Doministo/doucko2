@@ -1,0 +1,33 @@
+main {
+  margin: auto;
+}
+.hero {
+  background-color: #e4dbdb;
+  border: 1px solid #000;
+  margin: auto;
+  max-width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+.hero .nadpis {
+  text-align: center;
+}
+.hero .nabidka {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+table {
+  border: 1px solid #000;
+  margin: 24px auto;
+  background-color: #f8d6d6;
+  width: 620px;
+}
+table th {
+  padding: 5px;
+  text-align: center;
+}
